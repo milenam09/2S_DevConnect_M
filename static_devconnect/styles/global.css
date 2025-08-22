@@ -1,0 +1,50 @@
+/*primeira*/
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*segunda fonte*/
+@font-face {
+    font-family: GFs;
+    src: url(../assets/fonts/GFS_Didot/GFSDidot-Regular.ttf),        
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf)
+    url(../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf),
+}
+
+:root{
+    --cor--azul-claro3:#7DA0CA;
+    --cor--azul-claro2:#5483B3;
+    --cor--azul-escuro:#052659;
+    --cor--cinza-escuro:#4A5C6A;
+    --cor-cinza-claro:#E1E7EB;
+    --cor--azul-claro1:#C1E8FF;
+
+    --borda: 1px solid var(--cor--azul-escuro);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "GFS Didot", serif;
+}
+
+h1{
+   position: absolute;
+   z-index: -1;
+   opacity: 0;
+}
+
+
+
+body{
+   background-color: var(#E1E7EB);
+}
+
