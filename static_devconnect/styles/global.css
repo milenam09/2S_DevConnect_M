@@ -14,12 +14,15 @@
 }
 
 :root{
-    --cor--azul-claro3:#7DA0CA;
-    --cor--azul-claro2:#5483B3;
+    --cor--branco:#ffffff;
+    --cor--preto:#000000;
+    --cor--azul-claro2:#7DA0CA;
+    --cor--azul-claro3:#5483B3;
     --cor--azul-escuro:#052659;
     --cor--cinza-escuro:#4A5C6A;
     --cor-cinza-claro:#E1E7EB;
     --cor--azul-claro1:#C1E8FF;
+    
 
     --borda: 1px solid var(--cor--azul-escuro);
     --borda-arredondada: 2px;
@@ -48,3 +51,33 @@ body{
    background-color: var(#E1E7EB);
 }
 
+/*formulario*/
+.formulario-botao-azul{
+    background-color: var(--cor--azul-claro3);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+
+    color: var(--cor--branco);
+    font-size: var(--tamanho-fonte-sm);
+}
+
+.formulario-campos > input{
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-cinza-claro);
+
+    color: var(--cor--cinza-escuro);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+}
+
+.formulario-botao-cadastro{
+    background-color: var(--cor--azul-claro3);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+
+    color: var(--cor--branco);
+    font-size: var(--tamanho-fonte-sm);
+}
