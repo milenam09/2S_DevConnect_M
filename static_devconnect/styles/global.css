@@ -7,11 +7,11 @@
     src: url(../assets/fonts/GFS_Didot/GFSDidot-Regular.ttf),        
 }
 
-@font-face {
+/* @font-face {
     font-family: Raleway;
     src: url(../assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf)
     url(../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf),
-}
+} */
 
 :root{
     --cor--branco:#ffffff;
@@ -21,7 +21,9 @@
     --cor--azul-escuro:#052659;
     --cor--cinza-escuro:#4A5C6A;
     --cor-cinza-claro:#E1E7EB;
+    --cor-cinza-claro2:#A8A8A8;
     --cor--azul-claro1:#C1E8FF;
+   
     
 
     --borda: 1px solid var(--cor--preto);
@@ -36,7 +38,8 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   font-family: "GFS Didot", serif;
+   font-family: "Raleway", sans-serif;
+   outline-color: #052659;
 }
 
 h1{
@@ -48,7 +51,7 @@ h1{
 
 
 body{
-   background-color: var(#E1E7EB);
+   background-color: var(--cor-cinza-claro);
 }
 
 /*formulario*/
@@ -96,11 +99,13 @@ body{
 #texto-upload{
     display: inline-block;
     width: 100%;
+    max-width: 300px;
+    min-width:35px;
     background-color: #e1e7eb;
-    /* height: 35px; */
-    padding: 10px;
-    border: var(--borda);
+    padding: 5px;
+    border-radius: var(--borda-arredondada);
     text-align: center;
+    font-weight: 500;
    
 }
 
@@ -147,8 +152,6 @@ body{
     object-position: center;
     border-radius: 50%;
 }
-
-
 
 
 
