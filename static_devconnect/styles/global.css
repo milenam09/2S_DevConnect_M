@@ -145,9 +145,27 @@ body{
     align-items: center;
 }
 
-#foto-de-perfil{
+#foto-de-perfil-cabecalho{
     width: 40px;
     height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+
+.foto-perfil-sm{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+
+.foto-perfil{
+    width: 85px;
+    height: 85px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;

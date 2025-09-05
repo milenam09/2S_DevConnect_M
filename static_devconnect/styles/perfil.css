@@ -1,0 +1,105 @@
+.perfil-estatisticas {
+  display: flex;
+  gap: 30px;
+
+
+}
+
+.perfil-estatisticas>li {
+  list-style: none;
+}
+
+.perfil-bio {
+  margin: 3px 0;
+ 
+}
+
+.perfil-info{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.botao{
+  background-color: transparent;
+  border: none;
+  color: #5483B3;
+  padding-right: 50px;
+}
+
+.botao-bio{
+  display: flex;
+  gap: 30px;  
+}
+
+.publicacao-cabecario{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 15px   ;
+}
+
+
+.posts {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-texto {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.post>h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color:var(--cor-preto);
+}
+
+.post>p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.actions>img {
+  height: 22px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.actions>img {
+  transform: scale(1.2);
+}
+
+.likes {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.comentarios {
+  color:var(--cor-cinza-medio);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.comentarios:hover {
+  text-decoration: underline;
+}
+
+
+
+
