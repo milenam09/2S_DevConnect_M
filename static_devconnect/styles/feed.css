@@ -121,6 +121,7 @@ main{
 .card-publi>figure{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .imagem-publicacao{
@@ -171,4 +172,5 @@ main{
     order: 3;
 
     margin-left: 15px;
+    
 }
