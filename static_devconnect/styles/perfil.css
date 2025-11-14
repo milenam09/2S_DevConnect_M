@@ -5,32 +5,38 @@
 
 }
 
-.perfil-estatisticas>li {
-  list-style: none;
+.perfil-estatisticas {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
-.perfil-bio {
-  margin: 3px 0;
- 
+
+.perfil-bio, 
+.botao-bio {
+  max-width: 260px;
+  text-align: center;
 }
 
-.perfil-info{
+.perfil-info {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 10px;
+  flex-wrap: wrap;  /* ← ESSENCIAL */
+  text-align: center;
 }
 
 .botao{
   background-color: transparent;
   border: none;
   color: #5483B3;
-  padding-right: 50px;
 }
 
 .botao-bio{
   display: flex;
   gap: 30px;  
+  margin: 20px;
 }
 
 .publicacao-cabecario{

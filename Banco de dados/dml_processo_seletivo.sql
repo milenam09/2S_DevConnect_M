@@ -5,7 +5,7 @@ INSERT INTO tb_usuario(nome_completo, nome_usuario, email, senha, foto_perfl_url
 VALUES
 ('Milena Mares', 'maresz.z', 'mimimares3@gmail.com', 'JoJoToddynho12345', 'www.fotoperfildevgram/Milena'),
 ('Guilherme Vieira', 'ogvieiraa', 'guilherme3@gmail.com', 'Guivida0416', 'www.fotoperfildevgram/Gui'),
-('Rawany Manuel', 'rawany_09', 'raw.ma@gmail.com', 'raw13245', 'www.fotoperfildevgram/Raw');x
+('Rawany Manuel', 'rawany_09', 'raw.ma@gmail.com', 'raw13245', 'www.fotoperfildevgram/Raw');
 
 INSERT INTO tb_publi(descricao, imagem_url, data_publi)
 VALUES('que viagem incrivel', 'www.fotodeparis', '2025/10/03');
